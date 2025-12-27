@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+body {
+    background: #1C1A1A;
+    color: #E2E9F0;
+    margin: 0;
+    padding: 0;
+}
+
+#maincotent {
+    width: 100%;
+    box-sizing: border-box;
+    
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+
+    margin: 20px 0;
+}
+
+#maincotent section {
+    padding: 10px;
+    border: #3A3A3A solid 1px;
+    border-radius: 8px;
+
+    width: 58vw;
+    height: 80vh;
+}
+
+#maincotent section h2, #maincotent aside h2 {
+    font-size: 20pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#maincotent aside {
+    padding: 10px;
+    border: #3A3A3A solid 1px;
+    border-radius: 8px;
+
+    width: 38vw;
+    height: 68vh;
+}

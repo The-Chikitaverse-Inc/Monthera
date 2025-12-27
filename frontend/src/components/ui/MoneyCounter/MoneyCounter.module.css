@@ -1,0 +1,9 @@
+.moneycounter {
+    display: flex;
+    align-items: center;
+}
+
+.moneycounter h5 {
+    font-size: 20pt;
+    font-weight: 500;
+}
