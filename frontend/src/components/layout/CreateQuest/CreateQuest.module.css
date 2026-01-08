@@ -1,0 +1,31 @@
+.newquest {
+    margin: 20px 10px;
+    padding: 10px;
+    box-sizing: border-box;
+
+    border: 1px #30332E solid;
+    border-radius: 10px;
+}
+
+.newquest h2 {
+    font-size: 20pt;
+    font-weight: 500;
+}
+
+.newquest input[type='text'] {
+    margin: 10px 0;
+}
+
+.typequest span{
+    display: flex;
+    gap: 6px;
+    
+    margin: 10px 0;
+}
+
+.typequest span input{
+    height: 1.5rem;
+    width: 1rem;
+
+    accent-color: #034078;
+}

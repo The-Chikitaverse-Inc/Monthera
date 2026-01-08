@@ -1,12 +1,10 @@
 const styles = require('./quests.module.css')
+import CreateQuest from '@/components/layout/CreateQuest/CreateQuest'
 
 export default function Quest() {
     return (
         <>
-            <aside className={styles.newquest}>
-                <h2>Quest Nova</h2>
-                
-            </aside>
+            <CreateQuest/>
             <main className={styles.quests}>
                 <div>
                     <h3>Quest Principal</h3>
